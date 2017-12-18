@@ -1,0 +1,2 @@
+# mecab_create_dictionary
+ExcelファイルなどからMeCabの辞書ファイルを作成する
