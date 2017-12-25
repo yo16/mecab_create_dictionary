@@ -1,7 +1,7 @@
 # coding: utf-8
 
 # logger
-# 2017 (c) y.ikeda
+# 2017 (c) yo16
 
 from logging import getLogger, StreamHandler, Formatter, DEBUG
 

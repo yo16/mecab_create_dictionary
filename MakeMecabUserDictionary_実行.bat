@@ -2,7 +2,7 @@
 
 rem inputフォルダにある入力ファイルを読み込んで
 rem MeCabの辞書ファイルを作成し、登録する
-rem 2017 (c) y.ikeda
+rem 2017 (c) yo16
 
 rem Program Filesへアクセスするために、
 rem 管理者として実行する必要がある

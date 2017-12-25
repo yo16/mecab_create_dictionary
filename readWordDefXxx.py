@@ -1,7 +1,7 @@
 # coding: utf-8
 
 # readWordDefXxx
-# 2017 (c) y.ikeda
+# 2017 (c) yo16
 
 import sys
 import xlrd
