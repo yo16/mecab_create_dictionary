@@ -34,7 +34,7 @@ def readWordDefText( filePath, wl, yl ):
 	debug('TextFile:'+filePath)
 	f = codecs.open(filePath, 'r', encoding='utf-8')
 	for line in f:
-		line = line.replace('\r\n', '')
+		line = line.replace('[\r\n]', '')
 		ary = line.split(',')
 		# wlにまだ登録されていなかったら登録する
 		if ary[0] not in wl:

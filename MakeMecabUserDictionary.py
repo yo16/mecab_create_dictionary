@@ -66,6 +66,7 @@ def main(args):
 def list2Csv( wl, yl, csvFilePath ):
     f = codecs.open(csvFilePath, mode='w', encoding='cp932')
     for (w,y) in zip(wl, yl):
+        w = w.replace('[\r\n]','')
         if len(y)==0:
             y='シンヨウゴ'
         outstr = u'{0},1285,1285,10,名詞,新用語,*,*,*,*,{0},{1},{1}\n'.format(w,y)
